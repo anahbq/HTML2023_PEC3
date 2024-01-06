@@ -1,0 +1,44 @@
+<div id="inscribete" class="sm:w-4/5 mx-auto h-auto mb-96 w-full p-6">
+    <h2 class="h-title">Inscríbete en el club!</h2>
+    <p>Estamos emocionados de que hayas decidido unirte a nuestra comunidad de amantes del tenis. 
+            Queremos conocerte mejor y asegurarnos de que tu experiencia en la cancha sea tan única como tú. 
+            Completa este formulario ¡y prepárate para una nueva aventura! </p>
+    <div class="mt-4 sm:w-9/12  w-full mx-auto">
+        <form name="contact" class="bg-formColor p-8 rounded-lg" netlify>
+            <div class="mb-3">
+                <label for="name" class="labels">Nombre y apellidos</label>
+                <input type="text" class="inputs" id="name" aria-describedby="name" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="labels">Correo electrónico</label>
+                <input type="email" class="inputs" id="email" aria-describedby="emailHelp"  name="email">
+            </div>
+            <div class="mb-3">
+                <label for="aboutyou" class="labels">Cuentanos sobre ti y tu experiencia con el tenis</label>
+                <textarea class="inputs" id="aboutyou" rows="6"  name="aboutYou"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="CT2" class="labels">Categoria:</label>
+                <div>
+                    <input type="radio" name="infantil" id="infantil"  name="Infantil">
+                    <label for="infantil" >
+                    Infantil
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="Juvenil" id="Juvenil" name="Juvenil">
+                    <label for="Juvenil">
+                    Juvenil
+                    </label>
+                </div>
+                <div>
+                    <input  type="radio" name="Adulto" id="Adulto" name="Adulto">
+                    <label for="Adulto">
+                    Adulto
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="buttons bg-mainColor text-white">Enviar</button>
+        </form>
+    </div>
+</div>

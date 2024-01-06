@@ -5,23 +5,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:ital,wght@0,300;0,400;1,100;1,500;1,600;1,700&family=Zeyada&display=swap" rel="stylesheet"> </head>
+  <body> 
+      <include src="./views/header.html"></include>
+      <div class="w-4/5 mx-auto sm:grid sm:grid-rows-4 sm:grid-cols-6	sm:gap-0 sm:max-w-full ">
+        <a href="#actividades" class="buttons bg-secondColor 	sm:col-start-5	sm:row-end-5 sm:col-end-6 sm:max-h-20 sm:text-sm lg:text-base sm:px-0">+ Actividades</a>
+        <a href="#inscribete" class="buttons bg-firstColor sm:col-start-6	sm:row-end-5 sm:col-end-7 sm:max-h-20 sm:text-sm lg:text-base sm:px-0">INSCRÍBETE</a>
+        <div class="sm:z-10	sm:row-start-1	sm:col-start-1	sm:row-end-2 sm:col-end-4">
+          <h1 class="h-title mt-6 sm:text-black sm:text-4xl sm:pt-6">ACTIVIDADES DEPORTIVAS</h1>
+        </div>
+        <img class="rounded-sm sm:row-start-1	sm:col-start-2	sm:row-end-4 sm:col-end-7 " src="./assets/images/ninios.jpg" alt="Tenista">
+        
+        <div class="bg-contentColor rounded-lg text-white p-4 mt-3 sm:row-start-2	sm:col-start-1	sm:row-end-6 sm:col-end-3 sm:z-10	sm:max-h-96 sm:text-sm lg:text-lg">
+          <p>Nuestra pasión por el juego, nos hizo crear  esta liga para compartir momentos inolvidables en la pista con amigos.</p>
+          <p> Aquí, cada partido es una historia compartida... risas, raquetas, amistad. </p>
+          <p class="pt-3 lg:text-xl ">¡Bienvenidos a nuestra comunidad!</p>
+          <a href="#aboutUs"><i class="fa-regular fa-circle-info" style="color: #ffffff;"></i></a>
+        </div>    
+      </div>
+      <include src="./views/actividades.html"></include>
+      <include src="./views/contacto.html"></include>
+
+      <include src="./views/footer.html"></include>
+      <script type="module" src="./assets/scripts/main.js"></script>
   </body>
 </html>
