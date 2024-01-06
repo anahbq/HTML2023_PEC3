@@ -1,6 +1,7 @@
- @tailwind base;
- @tailwind components;
+@tailwind base;
+@tailwind components;
 
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:ital,wght@0,300;0,400;1,100;1,500;1,600;1,700&family=Roboto:wght@100&family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
  
@@ -12,16 +13,19 @@
   
 @layer components {
     .h-title {
-      @apply text-mainColor text-2xl text-center my-3 uppercase font-title;
+      @apply font-title text-mainColor text-2xl text-center uppercase my-3 ;
     }
     .buttons{
-      @apply border rounded-md text-center text-white	p-5;
+      @apply text-center text-white	p-5 border rounded-md;
     }
     .labels{
-        @apply block text-sm font-medium leading-6 text-gray-900;
+        @apply text-sm font-medium text-gray-900 leading-6 block;
     }
     .inputs{
-        @apply block w-full	py-3 rounded-md border bg-white text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6;
+        @apply  text-gray-900 w-full py-3 border rounded-md bg-white block 
+                placeholder:text-gray-400 
+                focus:ring-0 
+                sm:text-sm sm:leading-6;
     }
     .list{
         @apply before:content-['1'] before:inline-block before:h-9 before:border-solid before:mr-5 before:leading-6 before:border-black before:rounded-lg before:text-black before:font-bolder before:w-2 before:text-center

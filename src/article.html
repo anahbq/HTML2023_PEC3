@@ -11,43 +11,62 @@
   </head>
   <body> 
     <include src="./views/header.html"></include>
-    <div id="articulo" class="m-12 text-sm mb-10  font-light">
+
+    <div id="articulo" class="m-12 text-sm font-light">
         <h2 class="h-title">Artículos</h2>
         <article>
-            <div class="text-white text-center bg-[url('../images/home.jpg')] bg-center bg-cover bg-no-repeat py-20 h-150">
-              <p class="text-2xl">¡Únete a la emoción del tenis!</p>
-              <p><small><time datetime="2023-12-06">6 de diciembre de 2023</time></small></p>
-              <p><b>by Claudia Balarezo Quiroz</b></p>
+            <div class="py-20 h-150
+                        text-white text-center 
+                        bg-center bg-cover bg-no-repeat bg-[url('../images/home.jpg')]">
+              
+                <p class="text-2xl">¡Únete a la emoción del tenis!</p>
+                <p><small><time datetime="2023-12-06">6 de diciembre de 2023</time></small></p>
+                <p><b>by Claudia Balarezo Quiroz</b></p>
             </div>
             
-            <div class="my-5 md:grid md:grid-cols-2 md:gap-6 md:text-base">
-              <div class="mb-4">
-                <figure class="text-end">
-                  <blockquote class="italic ">
-                    <p>"El tenis es más que solo un juego. Es una lección de vida. Con cada partido, aprendemos no solo a golpear una pelota, sino a manejar el éxito y la derrota con gracia y determinación."</p>
-                  </blockquote>
-                  <figcaption class="text-lime-800">
-                    Billie Jean King
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="mb-4">
-                <p>Experimenta la pasión por el tenis en nuestro club, donde la competencia se fusiona con la camaradería. Desde jugadores novatos hasta expertos, todos encuentran un lugar en nuestra cancha para perfeccionar sus habilidades y compartir risas con amigos. En nuestro club cada raqueta es una historia y 
-                cada punto una oportunidad para crecer como jugador y como parte de nuestra comunidad.</p>
-              </div>
+            <div class="my-5 
+                        md:text-base md:grid md:grid-cols-2 md:gap-6">
+                <div class="mb-4">
+                    <figure class="text-end">
+                        <blockquote class="italic">
+                            <p>"El tenis es más que solo un juego. Es una lección de vida. Con cada partido, aprendemos no solo a golpear una pelota, sino a manejar el éxito y la derrota con gracia y determinación."</p>
+                        </blockquote>
+                        <figcaption class="text-mainColor">
+                            Billie Jean King
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="mb-4">
+                    <p>Experimenta la pasión por el tenis en nuestro club, donde la competencia se fusiona con la camaradería. Desde jugadores novatos hasta expertos, todos encuentran un lugar en nuestra cancha para perfeccionar sus habilidades y compartir risas con amigos. En nuestro club cada raqueta es una historia y 
+                    cada punto una oportunidad para crecer como jugador y como parte de nuestra comunidad.</p>
+                </div>
             </div>
       
             <p class="mb-5">Únete a nosotros y descubre el placer de jugar tenis en un ambiente cargado de alegria, energía y amistad. Algunas de las ventajas que te ofrecemos:</p>
       
-          
-            <div class="border-t-2 border-b-2">
-              <ol class="my-4">
-                  <li class="list_item"><b class="font-bold">Lecciones para todos los niveles</b><br><span class="ml-12">Desde principiantes hasta jugadores avanzados. Las lecciones están diseñadas para mejorar tus habilidades.</span></li>
-                  <li class="list_item"><b class="font-bold">Torneos emocionantes</b><br><span class="ml-12"></span>Participa en nuestros torneos. Demuestra tus habilidades y compite por premios increíbles!</span></li>
-                  <li class="list_item"><b class="font-bold">Ambiente amigable</b><br><span class="ml-12"></span>Organizamos eventos sociales donde todos los miembros pueden relacionarse y disfrutar!</span></li>
-                  <li class="list_item"><b class="font-bold">Programa de desarrollo juvenil</b><br><span class="ml-12"></span>Fomentamos el crecimiento integral de nuestros miembros más jovenes, no solo en el tenis sino también en valores.</span></li>
-                  <li class="list_item"><b class="font-bold">Descuentos especiales para familias</b><br><span class="ml-12"></span>Ofrecemos descuentos especiales para que más niños se unan a nuestra comunidad.</span></li>
-              </ol>
+            <div class="border-y-2">
+                <ol class="my-4">
+                    <li class="list_item">
+                        <b class="font-bold">Lecciones para todos los niveles</b><br>
+                        <span class="ml-12">Desde principiantes hasta jugadores avanzados. Las lecciones están diseñadas para mejorar tus habilidades.</span>
+                    </li>
+                    <li class="list_item">
+                        <b class="font-bold">Torneos emocionantes</b><br>
+                        <span class="ml-12">Participa en nuestros torneos. Demuestra tus habilidades y compite por premios increíbles!</span>
+                    </li>
+                    <li class="list_item">
+                        <b class="font-bold">Ambiente amigable</b><br>
+                        <span class="ml-12">Organizamos eventos sociales donde todos los miembros pueden relacionarse y disfrutar!</span>
+                    </li>
+                    <li class="list_item">
+                        <b class="font-bold">Programa de desarrollo juvenil</b><br>
+                        <span class="ml-12">Fomentamos el crecimiento integral de nuestros miembros más jovenes, no solo en el tenis sino también en valores.</span>
+                    </li>
+                    <li class="list_item">
+                        <b class="font-bold">Descuentos especiales para familias</b><br>
+                        <span class="ml-12">Ofrecemos descuentos especiales para que más niños se unan a nuestra comunidad.</span>
+                    </li>
+                </ol>
             </div>
       
             <p class="mt-8 text-2xl">Descubre una amplia variedad de actividades diseñadas para todos los niveles, desde lecciones 
@@ -56,14 +75,13 @@
               El equipo de entrenadores esta listo para guiarte en todo momento ayudandote a lograr tus metas.</p>
             <p class="my-3">Participa en nuestro siguiente torneo: </p>
             <div class="flex justify-center items-center">
-              <img src="./assets/images/torneo.jpg" class="h-auto max-w-lg rounded-lg" alt="Torneo diciembre">
+                <img src="./assets/images/torneo.jpg" class="h-auto max-w-lg rounded-lg" alt="Torneo diciembre"/>
             </div>
       
-          </article>
-      </div>
+        </article>
+    </div>
 
     <include src="./views/contacto.html"></include>
-
     <include src="./views/footer.html"></include>
   
     <script type="module" src="./assets/scripts/main.js"></script>
