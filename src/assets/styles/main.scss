@@ -1,19 +1,18 @@
-@tailwind base;
-@tailwind components;
-
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:ital,wght@0,300;0,400;1,100;1,500;1,600;1,700&family=Roboto:wght@100&family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
- 
+
+@tailwind base;
+@tailwind components;
 @layer base {
     html {
-      font-family: 'Montserrat', sans-serif;;
+      font-family: 'Montserrat', sans-serif;
     }
 }
   
 @layer components {
     .h-title {
-      @apply font-h2Title text-mainColor text-2xl text-center uppercase my-3 ;
+      @apply font-h2Title text-mainColor text-2xl text-center uppercase my-3;
     }
     .buttons{
       @apply text-center text-white	p-5 border rounded-md;
