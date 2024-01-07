@@ -13,7 +13,7 @@
   
 @layer components {
     .h-title {
-      @apply font-title text-mainColor text-2xl text-center uppercase my-3 ;
+      @apply font-h2Title text-mainColor text-2xl text-center uppercase my-3 ;
     }
     .buttons{
       @apply text-center text-white	p-5 border rounded-md;

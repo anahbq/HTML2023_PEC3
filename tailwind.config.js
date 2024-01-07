@@ -5,7 +5,7 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     fontFamily: {
-      title: ['Chakra Petch', 'sans-serif'],
+      h2Title: ['Chakra Petch', 'sans-serif'],
     },
     extend:{
       colors: {
